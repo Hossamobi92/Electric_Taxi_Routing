@@ -56,7 +56,7 @@ def check_battery_range(total_distance_km, battery_status):
     return enough_percentage
 
 def get_distance(origin, destination):
-    url = "https://maps.googleapis.com/maps/api/distancematrix/json"
+    url = "hier muss ein Google API Key hinzufügen"
     params = {
         'origins': origin,
         'destinations': destination,
