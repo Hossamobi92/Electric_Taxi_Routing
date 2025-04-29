@@ -1,0 +1,18 @@
+Test case one:
+ **1** by default two cars have hard coded status charging (id:3) and driving (id:1)
+ **2** the Taxi with id:3 will change its status after 180 seconds, cause the battery is gonna charge and reach 80%
+  which make it appears in green on the GUI and make its status available.
+ **3** Taxi with id:1 will stay as it is just for test purposes
+
+Test case two:
+ **1** select => location: 2 destination: 1  => available taxis 2,4,5 (1,3  status hard coded "driving" & "charging")
+ **2** taxi 5 will be selected cause it is the nearest to the customer
+       and has enough battery to pick up the customer and drive to his/her destination
+ **3** in this case Taxi 4 will be rejected cause it has 16% battery which isn't enough to serve a customer and keep the minimum battery status
+
+
+Test case three:
+  **1** select => location: 4 destination: 1  => available taxis 2,4,5 (1,3  status hard coded "driving" & "charging")
+  **2** taxi 4 will be selected cause it is the nearest to the customer
+       and has enough battery to pick up the customer and drive to his/her destination
+  **3** after the journey the taxi is gonna go to the nearest charger (4) cause it has 16% after the journey

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" jdk="Python 3.9 (EV)" jdk_type="Python SDK">
+	<output-test url="file://$MODULE_DIR$/out/test/EV"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<excludeFolder url="file://$MODULE_DIR$/ev_env"/>
+	</contentEntry>
+</component>
