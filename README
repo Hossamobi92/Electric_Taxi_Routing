@@ -1,3 +1,66 @@
+Electric Taxi Routing
+Project Description
+This project simulates and optimizes a dynamic electric taxi service. It was developed as part of an academic assignment and implements a basic simulation environment, assignment algorithms, and charging strategies for managing a fleet of electric taxis.
+
+The focus is on:
+
+Handling real-time customer requests
+
+Managing limited battery range and charging schedules
+
+Maximizing service efficiency and minimizing waiting times
+
+Problem Overview
+Customers request taxi services throughout the day, providing start and destination locations.
+
+Vehicles have a limited range and must recharge at charging stations.
+
+Some requests include a maximum waiting time; late pickups are not allowed.
+
+Assignment decisions must consider optimal routes, vehicle availability, and charging needs.
+
+The system aims to maximize serviced customers, minimize driving distances, and optimize profits.
+
+Implemented Features
+Basic simulation environment for customer and taxi operations
+
+Initial assignment and charging algorithms
+
+Handling dynamic customer requests
+
+Basic evaluation of performance metrics
+
+Technologies Used
+Python 3.9
+
+Basic Python libraries (no external dependencies)
+
+How to Run the Project
+Follow these steps to run the Electric Taxi Routing simulation:
+
+Clone the repository
+
+bash
+git clone https://github.com/Hossamobi92/Electric_Taxi_Routing.git
+
+Navigate to the project directory
+bash
+cd Electric_Taxi_Routing
+Run the main script
+
+bash
+python main_gui.py
+Requirements:
+
+Python 3.9 or higher installed
+
+No additional libraries required beyond standard Python
+
+Author
+Mohamed Hossam Obideen
+
+
+
 Test case one:
  **1** by default two cars have hard coded status charging (id:3) and driving (id:1)
  **2** the Taxi with id:3 will change its status after 180 seconds, cause the battery is gonna charge and reach 80%
