@@ -60,7 +60,7 @@ def get_distance(origin, destination):
     params = {
         'origins': origin,
         'destinations': destination,
-        'key': "AIzaSyBhyDwu3Z8s9OarF1DJ9IzJS-IDMmE_zRU"
+        'key': "hier muss ein Key hinzufügen"
     }
     response = requests.get(url, params=params)
     data = response.json()
